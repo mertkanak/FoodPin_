@@ -81,7 +81,7 @@
                                     <outlet property="nameLabel" destination="1N7-AT-Ihz" id="Nwq-Qn-UNH"/>
                                     <outlet property="thumbnailImageView" destination="oIJ-fG-eaa" id="64M-Yf-u6m"/>
                                     <outlet property="typeLabel" destination="eCu-Iu-JT3" id="JO1-yY-wiG"/>
-                                    <segue destination="Jjl-yD-7iD" kind="show" id="zIW-xD-WGh"/>
+                                    <segue destination="Jjl-yD-7iD" kind="show" identifier="showRestaurantDetail" id="zIW-xD-WGh"/>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="favoritecell" id="s5e-sd-SwN" customClass="RestaurantTableViewCell" customModule="FoodPin" customModuleProvider="target">
@@ -153,7 +153,7 @@
                                     <outlet property="nameLabel" destination="Li3-WQ-L9v" id="4aj-5W-RJi"/>
                                     <outlet property="thumbnailImageView" destination="cjj-MO-q2V" id="SZF-Ku-Oob"/>
                                     <outlet property="typeLabel" destination="NKb-RW-I1v" id="XVw-SR-vdD"/>
-                                    <segue destination="Jjl-yD-7iD" kind="show" id="UfH-nh-1gt"/>
+                                    <segue destination="Jjl-yD-7iD" kind="show" identifier="showRestaurantDetail" id="UfH-nh-1gt"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

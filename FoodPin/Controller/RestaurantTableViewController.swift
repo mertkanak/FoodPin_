@@ -206,4 +206,13 @@ class RestaurantTableViewController: UITableViewController {
             
         return swipeConfiguration
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showRestauranDetail" {
+            if let indexPath = tableView.indexPathForSelectedRow {
+                let destinationcontroller = segue.destination as! RestaurantDetailViewController
+                destinationcontroller.restaurantImageName = self.restaurants[indexPath.row].image
+            }
+        }
+    }
 }
