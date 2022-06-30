@@ -168,10 +168,10 @@
             </objects>
             <point key="canvasLocation" x="813.84615384615381" y="88.862559241706151"/>
         </scene>
-        <!--View Controller-->
+        <!--Restaurant Detail View Controller-->
         <scene sceneID="95Z-My-afz">
             <objects>
-                <viewController id="Jjl-yD-7iD" sceneMemberID="viewController">
+                <viewController id="Jjl-yD-7iD" customClass="RestaurantDetailViewController" customModule="FoodPin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5V8-i0-CMm">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -190,6 +190,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qxJ-ue-rF3"/>
+                    <connections>
+                        <outlet property="restaurantImageView" destination="Lw4-qi-mR8" id="DCY-c3-dVr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Roh-wh-Uoa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
