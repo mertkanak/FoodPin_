@@ -81,6 +81,7 @@
                                     <outlet property="nameLabel" destination="1N7-AT-Ihz" id="Nwq-Qn-UNH"/>
                                     <outlet property="thumbnailImageView" destination="oIJ-fG-eaa" id="64M-Yf-u6m"/>
                                     <outlet property="typeLabel" destination="eCu-Iu-JT3" id="JO1-yY-wiG"/>
+                                    <segue destination="Jjl-yD-7iD" kind="show" id="zIW-xD-WGh"/>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="favoritecell" id="s5e-sd-SwN" customClass="RestaurantTableViewCell" customModule="FoodPin" customModuleProvider="target">
@@ -152,6 +153,7 @@
                                     <outlet property="nameLabel" destination="Li3-WQ-L9v" id="4aj-5W-RJi"/>
                                     <outlet property="thumbnailImageView" destination="cjj-MO-q2V" id="SZF-Ku-Oob"/>
                                     <outlet property="typeLabel" destination="NKb-RW-I1v" id="XVw-SR-vdD"/>
+                                    <segue destination="Jjl-yD-7iD" kind="show" id="UfH-nh-1gt"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -187,6 +189,7 @@
                             <constraint firstItem="Lw4-qi-mR8" firstAttribute="top" secondItem="5V8-i0-CMm" secondAttribute="top" id="tOp-lO-SlI"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="qxJ-ue-rF3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Roh-wh-Uoa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -211,6 +214,9 @@
             <point key="canvasLocation" x="-115.38461538461539" y="88.862559241706151"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="zIW-xD-WGh"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="heart.fill" catalog="system" width="128" height="109"/>
         <systemColor name="systemBackgroundColor">
